@@ -56,3 +56,10 @@
 - **简洁优先**：每次变更尽量简单，只影响最小代码。
 - **绝不偷懒**：找到根因，不用临时修复，坚持资深开发者标准。
 - **最小影响**：只修改必要部分，避免引入新 bug。
+
+## 9.Unity Obsidian Documentation（Unity Obsidian 文档规则）
+
+- 对于第一次接入对话的 Unity 项目，先在“文档”目录中新建一个与 Unity 项目同名的 Obsidian 仓库；如果已经存在同名仓库，则直接连接该仓库。
+- 只要要写计划、实现方案、技术笔记、实验记录或复盘，默认创建到对应的 Obsidian 仓库中，除非用户明确要求写进 Unity 项目目录。
+- 对 Unity 项目而言，本规则优先于 `tasks/todo.md`、`tasks/lessons.md` 等项目内任务记录路径；这些内容应改写到 Obsidian 仓库的计划、笔记或复盘文件中。
+- 上传项目 Git 时，将对应的 Obsidian 仓库内容也放入仓库中的独立文件夹一并上传，作为项目日志记录；不要与 Unity 的 `Assets/`、`Packages/`、`ProjectSettings/` 等工程目录混放。
